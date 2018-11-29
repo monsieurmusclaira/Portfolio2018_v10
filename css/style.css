@@ -442,11 +442,6 @@ opacity: 1;
 }
 /* End of movieinfo css */
 /* Start of modal css */
-.modal-right {
-	-webkit-transform: translate3d(25%, 0, 0);
-	transform: translate3d(25%, 0, 0);
-}
-
 body.modal-open .supreme-container {
 	-webkit-filter: blur(6px);
 	-moz-filter: blur(6px);
@@ -474,14 +469,15 @@ body.example-gallery-open #leshomardsimmortelsModal {
 	background-color: rgba(0, 0, 0, 0);
 }
 
-.modal-lg {
-	max-width: 60% !important;
+.modal {
+	
 }
 
 .modal-content {
 	margin-right: 20px;
 	padding-right: 20px;
 	background-color: rgba(0, 0, 0, 0);
+
 }
 .modal-content h2 {
 	color: #FCCB44;
