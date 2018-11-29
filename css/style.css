@@ -484,8 +484,10 @@ opacity: 1;
 }
 #labellerosine {
 	background-image: url("../img/labellerosine_2.jpg") 50% 0 no-repeat fixed;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
 	background-size: cover;
-	overflow: hidden;
 }
 /* End of section css */
 
