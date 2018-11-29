@@ -1,19 +1,32 @@
 html {
 	height: 100vh; /* set viewport constraint */
-	min-height: 100%; /* enforce height */
+	min-height: 100% !important;  /* enforce height */
 }
 html,
 body {
 	font-size: 14px !important;
 	background-color: black;
-	
-}
+	}
 body {
 	margin: 0;
 	height:100%;
 	overflow: scroll;
 	background-size: cover;
 	-webkit-background-size: cover; /* safari may need this */
+}
+body:after{
+	content:"";
+	position:fixed; // stretch a fixed position to the whole screen
+	top:0;
+	height:100vh; // fix for mobile browser address bar appearing disappearing
+	left:0;
+	right:0;
+	z-index:-1; // needed to keep in the background
+	background: url(/img/header2.jpg) center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 ::-webkit-scrollbar { 
     display: none; 
@@ -456,7 +469,7 @@ opacity: 1;
 #leshomardsimmortels {
 	background-image: url("../img/leshomards.jpg"); 
 	background-size: cover;
-	height: 100%;
+	height: 100vh;
 	overflow: hidden;
 	}
 #springtide {
@@ -471,7 +484,7 @@ opacity: 1;
 #labellerosine {
 	background-image: url("../img/labellerosine_2.jpg");
 	background-size: cover;
-	height: 100%;
+	height: 100vh;
 	overflow: hidden;
 }
 /* End of section css */
