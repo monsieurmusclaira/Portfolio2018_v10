@@ -469,7 +469,6 @@ opacity: 1;
 #leshomardsimmortels {
 	background-image: url("../img/leshomards.jpg"); 
 	background-size: cover;
-	height: 100vh;
 	overflow: hidden;
 	}
 #springtide {
@@ -483,8 +482,7 @@ opacity: 1;
 }
 #labellerosine {
 	background-image: url("../img/labellerosine_2.jpg");
-	background-size: cover;
-	height: 100vh;
+	background-size: 100vh;
 	overflow: hidden;
 }
 /* End of section css */
