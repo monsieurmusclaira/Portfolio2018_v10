@@ -399,6 +399,10 @@ opacity: 1;
 	min-height: 300px;
 	position: relative;
 }
+.s1 img {
+	width:4vw;
+	max-width: 60px;
+}
 /* End of Header Parallax Element Style*/	
 /* Start of section css */
 #leshomardsimmortels {
@@ -506,7 +510,7 @@ body.example-gallery-open #leshomardsimmortelsModal {
 }
 .function {
 	font-weight: 100;
-	color: hsla(0, 0%, 100%, 0.64);
+	color: hsla(0, 0%, 100%, 0.74);
 }
 .names {
 	color: hsla(0, 0%, 100%, 0.94);
