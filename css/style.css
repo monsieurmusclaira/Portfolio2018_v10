@@ -483,7 +483,7 @@ opacity: 1;
 	height: 100vh;
 }
 #labellerosine {
-	background-image: url("../img/labellerosine_2.jpg") 50% 0 no-repeat fixed;
+	background-image: url("../img/labellerosine_2.jpg");
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
