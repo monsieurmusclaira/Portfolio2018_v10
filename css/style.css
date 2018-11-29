@@ -402,6 +402,7 @@ opacity: 1;
 .s1 img {
 	width:4vw;
 	max-width: 60px;
+	height: 100%;
 }
 /* End of Header Parallax Element Style*/	
 /* Start of section css */
